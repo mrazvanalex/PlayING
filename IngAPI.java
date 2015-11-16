@@ -8,9 +8,9 @@ public class IngAPI {
 		return PrintcURL("");
 	}
 	public String PrintcURL(String option) throws Exception {
- 		URL oracle = new URL("http://213.157.170.77/"+option);
+ 		URL ing = new URL("http://213.157.170.77/"+option);
         	BufferedReader in = new BufferedReader(
-        	new InputStreamReader(oracle.openStream()));
+        	new InputStreamReader(ing.openStream()));
 
         	String inputLine;
         	String ObjectString="";
