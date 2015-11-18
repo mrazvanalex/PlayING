@@ -6,7 +6,8 @@ public class PlayING {
 		//System.out.print(api.getBasic());
 		//System.out.print(api.getAccount(1));
 		//This response string must be first transformed into a JSON.
-		String me = api.getLoggedUserId();
-		System.out.print(me);
+		//String me = api.getLoggedUserId();
+		//System.out.print(me);
+		api.PostcURL("");
 	}
 }
