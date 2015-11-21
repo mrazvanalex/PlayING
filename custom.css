@@ -1,0 +1,15 @@
+#slide0 {
+    background-image: url("1.jpg");
+	background-position:center;
+    background-size: cover;
+}
+#slide1 {
+    background-image: url("2.jpg");
+	background-position:center;
+    background-size: cover;
+}
+#slide2 {
+    background-image: url("3.jpg");
+	background-position:center;
+    background-size: cover;
+}

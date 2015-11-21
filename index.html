@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,300italic,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#FF8843">
+    <!-- Your app title -->
+    <title>Play-ING</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="dist/css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="dist/css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css?nc=3">
+        <link rel="stylesheet" href="welcomescreen.css">
+        <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+   <div class="panel-overlay"></div>
+ 
+    <!-- Left panel, let it be with reveal effect -->
+    <div class="panel panel-left panel-reveal">
+    	<div id="panel-account-main">
+	    	<img class="left" src="css/left-nav-logo.png">
+	       	<p class="left">Iolanta-Hotoboc</p>
+	</div>
+	<div id="panel-menu">
+		<ul>
+			<a href="menu.html"><li class="white">PlayING Home</li></a>
+			<a href="inbox.html"><li>Inbox</li></a>
+			<a href="cause.html"><li>Cause of the month</li></a>
+			<a href="team.html"><li>Team</li></a>
+			<a href="help.html"><li>Help</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+		</ul>
+	</div>
+    </div>
+
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+
+ 
+            <!-- Scrollable page content -->
+            <div class="page-content login-content">
+            <div id="login-pic">
+            </div>
+             <form id="loginform" >
+             		<input type="text" name="username" id="x" placeholder="Username">
+             		<input type="password" name="password" id="y" placeholder="Digipass or Password">
+             		<div class="login-modal"  id="login-button" onclick="submitForm()">Login</div>
+             </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+
+<script type="text/javascript" src="js/myapp/pages/IndexPageController.js"></script>
+           <script type="text/javascript" src="welcomescreen.js"></script>
+
+      <script type="text/javascript" src="game.js"></script>
+      <script type="text/javascript" src="ajaxcalls.js"></script>
+           <script type="text/javascript" src="js/myapp/init.js"></script>
+               <script type="text/javascript" src="myapp.js"></script>
+
+       
+
+
+  </body>
+</html> 

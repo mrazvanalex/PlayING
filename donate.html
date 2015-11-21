@@ -1,0 +1,32 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+ 
+<div class="pages">
+<div data-page="leftpage" class="page">
+            <!-- Scrollable page content -->
+             <div class="navbar">
+              <div class="navbar-inner">
+               <div class="left">
+                   <a href="#" data-panel="left" class="open-panel">
+                       <i class="icon icon-bars "></i>
+                    </a>
+               </div>
+              </div>
+            </div>
+            <div class="page-content no-padding">
+              <div id="container" class="center">
+                <div id="donateform">
+  				        <form id="money">
+  				          <ul id="summ">
+  				            <li class="custombutton" onClick="getdonation(1)"><p>1€</p></li>
+  				            <li class="custombutton" onClick="getdonation(5)"><p>5€</p></li>
+  				            <li class="custombutton" onClick="getdonation(10)"><p>10€</p></li>
+                      <li><input type="text" id="other" name="inputdonatie" placeholder="Other €"></li>
+  				          </ul>
+  				        </form>
+                  <div id="submitdonation">
+                    <button type="button" class="butondonatie" onClick="setdonation()">DONATE!</button>
+                  </div>
+                </div>
+			       </div>
+            </div>
+          </div>  

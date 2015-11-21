@@ -1,0 +1,131 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+ 
+<!-- Top Navbar-->
+
+<div class="pages">
+<div data-page="about" class="page">
+ 
+           <!-- Scrollable page content -->
+ 
+            <!-- Scrollable page content -->
+             <div class="page-content no-padding">
+              <div id="container" class="center">
+      <!--  Leaving this for later -->
+      <div id="header-container" class="center">
+        <form name="cpanel" id="game_cpanel">
+          <div id="header-content" class="centerdiv">
+            <div id="start_button">
+              <h1  onClick="play()">START</h1>
+            </div>
+            <td align=right>Time:</td>
+            <input type="text" name="timeleft" size="4" onFocus="this.blur()"><br>
+            <td align=right>Lions:</td>
+            <input type="text" name="score" size="4" onFocus="this.blur()">
+            <p>This game is a demo and it is inteded for demonstration at ING Hackathon 2015. Other games can and should be embedded in the app to fulfill its purpose.</p>
+            <h3>Press START to play</h3>
+            <!-- <p>Lions Hunted:<span name="score">3</span></p>-->
+          
+            
+          </div>
+        </form>
+      </div>
+      <div id="game-container" class="center">
+        <div id="game-content" class="centerdiv">
+          <form name="dotz">
+            <ul  class="dotLine">
+              <li>
+                <div id="button0"class="initialDot" onclick="hithead(0)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button1"class="initialDot" onclick="hithead(1)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button2"class="initialDot" onclick="hithead(2)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button3"class="initialDot" onclick="hithead(3)" data-checked="0">
+                </div>
+              </li>
+            </ul>
+            <ul  class="dotLine">
+              <li>
+                <div id="button4"class="initialDot" onclick="hithead(4)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button5"class="initialDot" onclick="hithead(5)" data-checked="0">
+                </div>
+              </li>
+              <li >
+                <div id="button6"class="initialDot" onclick="hithead(6)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button7"class="initialDot" onclick="hithead(7)" data-checked="0">
+                </div>
+              </li>
+            </ul>
+            <ul  class="dotLine">
+              <li>
+                <div id="button8"class="initialDot" onclick="hithead(8)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button9"class="initialDot" onclick="hithead(9)" data-checked="0">
+                </div>
+              </li>
+              <li >
+                <div id="button10"class="initialDot" onclick="hithead(10)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button11"class="initialDot" onclick="hithead(11)" data-checked="0">
+                </div>
+              </li>
+            </ul>
+            <ul  class="dotLine">
+              <li>
+                <div id="button12"class="initialDot" onclick="hithead(12)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button13"class="initialDot" onclick="hithead(13)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button14"class="initialDot" onclick="hithead(14)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button15"class="initialDot" onclick="hithead(15)" data-checked="0">
+                </div>
+              </li>
+            </ul>
+            <ul  class="dotLine">
+              <li>
+                <div id="button16"class="initialDot" onclick="hithead(16)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button17"class="initialDot" onclick="hithead(17)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button18" class="initialDot" onclick="hithead(18)" data-checked="0">
+                </div>
+              </li>
+              <li>
+                <div id="button19"class="initialDot" onclick="hithead(19)" data-checked="0">
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+            </div>
+          </div>
+          </div>
+</div>          
